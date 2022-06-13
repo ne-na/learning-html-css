@@ -3,6 +3,12 @@ body {
   text-align: center;
   background-color: rgb(180, 235, 204);
 }
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
 .header_1 {
   border-style: double;
   border-width: 10px;
@@ -45,12 +51,6 @@ h2 {
   padding: 30px;
   margin: 40px;
 }
-p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  margin-left: 180px;
-  margin-right: 180px;
-}
 .left {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -83,18 +83,142 @@ h3 {
   list-style: none;
 }
 
-
-
-@media (min-width: 1024px) {
-  body { 
-background-color: orangered;
+@media only screen and (min-width: 320px) {
+	body { 
+		background-color:cornflowerblue;
+		text-align: center;
+		color: rgb(44, 13, 77);
+	}
+  p {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
+  .header_1 {
+    width: auto;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(44, 13, 77);
+    padding: 2px;
+    margin: 2px;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .border {
+    border: 2px solid rgb(44, 13, 77);
+    margin: 10px;
+  }
+  .main_1 {
+    width: auto;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(44, 13, 77);
+    padding: 2px;
+    margin: 2px;
+  }
+  h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .useless {
+    border-style: double;
+    border-color:rgb(44, 13, 77);
+    list-style: none;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .link {
+    background-color: rgb(72, 122, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(44, 13, 77);
+    border: 2px solid rgb(44, 13, 77);
+    line-height: 25px;
+    }
 }
 
-@media (min-width: 320px) {
-  body { 
-background-color:cornflowerblue;
-text-align: center;
-color: rgb(44, 13, 77);
-}
+@media only screen and (min-width: 1024px) {
+  body {
+    color: rgb(4, 36, 15);
+    text-align: center;
+    background-color: rgb(180, 235, 204);
+  }
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-weight: normal;
+  }
+  .header_1 {
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 40px;
+  }
+  .header_2 {
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 40px;
+  }
+  .border {
+    border: 4px solid rgb(255, 255, 255);
+    margin: 10px;
+  }
+  h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .main_1 {
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 40px;
+  }
+  .main_2 {
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 40px;
+  }
+  .left {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    padding: 1px;
+    margin: 0 auto;
+  }
+  h3 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .link {
+    background-color: olivedrab;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: rgb(4, 36, 15);
+    border: 3px solid rgb(5, 70, 29);
+  }
+  .useless {
+    border-style: double;
+    border-color: white;
+    list-style: none;
+    padding: 20px;
+    margin: 0 auto;
+  }
 }
